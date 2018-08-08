@@ -4,8 +4,6 @@ This project tested my ability to use a testing suite, like Jasmine, to validate
 
 # Steps to run application
 
-To start the app, open index.html in your browser. 
-
-The tests were written in the feedreader.js file. The test results appear at the bottom of the index.html page.
-
-Tests that are green have passed and red have failed.
+* To start the app, open index.html in your browser. 
+* The tests were written in the feedreader.js file. The test results appear at the bottom of the index.html page.
+* Tests that are green have passed and red have failed.
