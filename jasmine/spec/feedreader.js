@@ -77,15 +77,15 @@ $(function() {
 
         // tests that there is at least one entry in feed.
         it('should be called and contain at least one feed.', function() {
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
     });
 
     describe('New Feed Selection', function() {
 
         // tests that new content is loaded by loadFeed().
-        var $feedOne;
-        var $feedTwo;
+        var feedOne;
+        var feedTwo;
 
         beforeEach(function(done) {
             loadFeed(0, function() {
